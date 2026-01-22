@@ -316,7 +316,7 @@ The scatter plot visualizes the strategic trade-off between customer volume and 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/sales-strategy-experiment-analysis.git
+   git clone https://github.com/Isaaccev7/sales-strategy-experiment-analysis.git
    cd sales-strategy-experiment-analysis
    ```
 
@@ -388,7 +388,7 @@ sales-strategy-experiment-analysis/
 ## 📧 Contact & Feedback
 
 **Author:** Isaac Cevallos
-**Project Date:** Noviembre 2025  
+**Project Date:** November 2025  
 **Analysis Period:** 6-week sales experiment
 
 For questions, feedback, or collaboration opportunities, please open an issue in this repository.
