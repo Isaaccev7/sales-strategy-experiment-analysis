@@ -10,7 +10,7 @@ for each sales method, revealing critical insights about sustainability and
 method effectiveness over time.
 
 Related README Section:
-https://github.com/YOUR_USERNAME/sales-strategy-experiment-analysis#3-revenue-trends-over-time
+https://github.com/Isaaccev7/sales-strategy-experiment-analysis#3-revenue-trends-over-time
 
 Author: Isaac
 Last Updated: January 2026

@@ -9,7 +9,7 @@ This analysis examines the customer distribution across the three sales methods
 tested during the 6-week experiment: Email, Call, and Email + Call.
 
 Related README Section:
-https://github.com/YOUR_USERNAME/sales-strategy-experiment-analysis#1-customer-distribution-by-sales-method
+https://github.com/Isaaccev7/sales-strategy-experiment-analysis#1-customer-distribution-by-sales-method
 
 Author: Isaac
 Last Updated: January 2026

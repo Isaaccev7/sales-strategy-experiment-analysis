@@ -9,7 +9,7 @@ This analysis examines how revenue is distributed across the three sales methods
 revealing distinct customer value patterns for Email, Call, and Email + Call.
 
 Related README Section:
-https://github.com/YOUR_USERNAME/sales-strategy-experiment-analysis#2-revenue-distribution-analysis
+https://github.com/Isaaccev7/sales-strategy-experiment-analysis#2-revenue-distribution-analysis
 
 Author: Isaac
 Last Updated: January 2026

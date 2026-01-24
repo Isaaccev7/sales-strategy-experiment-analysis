@@ -11,7 +11,7 @@ revenue per minute invested, revealing the true ROI of time allocation and
 providing data-driven recommendations for resource optimization.
 
 Related README Section:
-https://github.com/YOUR_USERNAME/sales-strategy-experiment-analysis#4-efficiency-analysis-revenue-per-minute
+https://github.com/Isaaccev7/sales-strategy-experiment-analysis#4-efficiency-analysis-revenue-per-minute
 
 Author: Isaac
 Last Updated: January 2026
