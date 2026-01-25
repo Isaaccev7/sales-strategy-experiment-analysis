@@ -39,20 +39,14 @@ COLOR_MAP = {
 # 2. DATA LOADING
 # ============================================================================
 
-# Load cleaned data
-product_sales = pd.read_csv("../data/raw/product_sales.csv")
-
-# Apply data cleaning (same as 01_data_cleaning.py)
-product_sales["sales_method"] = product_sales["sales_method"].replace({
-    "em + call": "Email + Call",
-    "email": "Email"
-})
-product_sales.dropna(subset=['revenue'], inplace=True)
+# Load cleaned data (processed by 01_data_cleaning.py)
+product_sales = pd.read_csv("../data/processed/product_sales_clean.csv")
 
 print("="*80)
 print("DATA LOADED SUCCESSFULLY")
 print("="*80)
-print(f"Total records: {len(product_sales):,}")
+print(f"Total transactions: {len(product_sales):,}")
+print("✓ Using pre-cleaned dataset from 01_data_cleaning.py")
 print(f"Date range: Week {product_sales['week'].min()} to Week {product_sales['week'].max()}")
 print(f"Sales methods: {', '.join(product_sales['sales_method'].unique())}")
 

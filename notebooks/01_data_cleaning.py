@@ -190,15 +190,29 @@ print("  ✓ All columns validated against expected ranges")
 print("\n✓ Dataset is clean and ready for analysis")
 
 # ============================================================================
-# 8. SAVE CLEANED DATA (OPTIONAL)
+# 8. SAVE CLEANED DATA
 # ============================================================================
 
-# Uncomment to save cleaned data
-# product_sales.to_csv("../data/processed/product_sales_clean.csv", index=False)
-# print("\n✓ Cleaned data saved to: data/processed/product_sales_clean.csv")
+print("\n" + "="*80)
+print("SAVING CLEANED DATA")
+print("="*80)
+
+# Create processed folder if it doesn't exist
+import os
+processed_dir = '../data/processed'
+os.makedirs(processed_dir, exist_ok=True)
+
+# Save cleaned data
+output_path = f'{processed_dir}/product_sales_clean.csv'
+product_sales.to_csv(output_path, index=False)
+
+print(f"✓ Cleaned data saved to: {output_path}")
+print(f"  • Rows: {len(product_sales):,}")
+print(f"  • Columns: {len(product_sales.columns)}")
+print(f"  • File size: {os.path.getsize(output_path) / 1024:.1f} KB")
 
 print("\n" + "="*80)
-print("DATA VALIDATION COMPLETE")
+print("DATA VALIDATION AND CLEANING COMPLETE")
 print("="*80)
 
 # ============================================================================
