@@ -361,8 +361,9 @@ sales-strategy-experiment-analysis/
 │
 ├── data/
 │   ├── raw/
-│   │   └── product_sales.csv           # Original dataset (13,926 rows × 8 columns)
-│   └── processed/                      # Cleaned/transformed data (if needed)
+│   │   └── product_sales.csv           # Original dataset (14,000 rows × 8 columns)
+│   └── processed/
+│       └── product_sales_clean.csv     # Clean dataset (13,926 rows × 8 columns)
 │
 ├── notebooks/
 │   ├── 01_data_cleaning.py             # Data validation and cleaning

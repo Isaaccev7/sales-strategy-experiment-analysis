@@ -13,7 +13,7 @@ Related README Section:
 https://github.com/Isaaccev7/sales-strategy-experiment-analysis#3-revenue-trends-over-time
 
 Author: Isaac
-Last Updated: January 2026
+Last Updated: November 2025
 """
 
 # ============================================================================

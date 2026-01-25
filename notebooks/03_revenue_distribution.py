@@ -12,7 +12,7 @@ Related README Section:
 https://github.com/Isaaccev7/sales-strategy-experiment-analysis#2-revenue-distribution-analysis
 
 Author: Isaac
-Last Updated: January 2026
+Last Updated: November 2025
 """
 
 # ============================================================================

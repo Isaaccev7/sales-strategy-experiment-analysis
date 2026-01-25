@@ -14,7 +14,7 @@ Related README Section:
 https://github.com/Isaaccev7/sales-strategy-experiment-analysis#4-efficiency-analysis-revenue-per-minute
 
 Author: Isaac
-Last Updated: January 2026
+Last Updated: November 2025
 """
 
 # ============================================================================
